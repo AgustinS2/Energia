@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/contactanos.css">
     <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/6923c8d2e1.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
@@ -41,22 +41,48 @@
             </ul>
           </div>
         </div>
-      </nav>
-
+    </nav>
     <main>
-          <h1>ENTRENA.</h1>
-          <h2>Entrena con <span>energia.</span></h2>
-          <h2>Entrena <span>sin limites.</span></h2>
-          <a href="clases.html">Ver detalles sobre las clases</a>
-          <button>Empeza YA</button>
+      <h1>Contanos tu problema</h1>
+      <section id="contacto">
+        <form action="" class="formulario">
+          <div class="contacto">
+            <div class="img-izquierda"></div>
+            <div class="derecha">
+              <label for="apellido">Apellido</label>
+              <input type="text" id="apellido">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre">
+              <label for="edad">Edad</label>
+              <input type="number" id="edad">
+              <label for="telefono">Telefono</label>
+              <input type="number" id="telefono">
+              <label for="email">Email</label>
+              <input type="email" id="email">
+              <label for="tema">Cual es el motivo?</label>
+              <select id="tema">
+                <optgroup>
+                  <option>Quiero conocer los planes y costos</option>
+                  <option>Quiero realizar una consulta / sugerencia</option>
+                  <option>Quiero realizar un reclamo</option>
+                  <option>Otros</option>
+                </optgroup>
+              </select>
+              <label for="duda">Contanos!</label>
+              <textarea id="duda" placeholder="Escriba los detalles aqui" cols="35" rows="8"></textarea>
+              <input type="button" value="Enviar">
+            </div>
+          </div>
+        </form>
+      </section>
     </main>
-
-    <footer>
+    
+    <footer>    
         <div class="redes">
             <i class="fa fa-instagram"></i>
             <i class="fa fa-twitter"></i>
             <i class="fa fa-facebook"></i>
-        </div> 
+        </div>
         <ul class="terminos">
           <li class="titulo-lista">Ayuda</li>
           <li><a href="pautas.html">Pautas de Convivencia</a></li>
@@ -68,8 +94,6 @@
           Agustin Segovia S.A.
         </p>
     </footer> 
-
-
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

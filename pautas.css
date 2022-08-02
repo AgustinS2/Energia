@@ -1,0 +1,49 @@
+.contenido {
+    padding: 20px 15px;
+    font-size: 1rem;
+}
+
+h1 {
+    background: linear-gradient(rgba(0,0,0,7) , rgba(0,0,0,0.1), rgba(0,0,0,0.5) ,rgba(0,0,0,0.7) ), url(../img/reglas.jpg) no-repeat center;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .contenido {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+}
+@media (min-width: 992px) {
+
+    h1 {
+        padding: 10rem;
+    }
+
+}
+
+@media (min-width: 1200px) {
+	.contenido {
+		width: 80%;
+	}
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+
+ol {
+	list-style-type:none;
+	counter-reset: contadorItems;
+	padding-left:0;
+}
+ 
+ol li:before{
+	content: counter(contadorItems);
+	counter-increment:contadorItems;
+	font-size:2em;line-height:0.92;
+	margin-right:5px; 
+	float:left;  
+  color:#F65826; 
+}
+ol li {overflow:hidden; margin-bottom:20px;}

@@ -1,0 +1,88 @@
+main {
+    font-family: 'Alfa Slab One', sans-serif, cursive;
+}
+
+.presentacion > p {
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem;
+}
+
+span {
+    color: #F65826;
+}
+
+main {
+    background-color: #ffe3d8;
+}
+
+
+h1 {
+    text-align: center;
+    color: #1a1a1a;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+    text-shadow: 0px 1px 2px black;
+}
+
+.ventajas {
+    background-color: #F65826;
+    color: #ddd;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.item > i {
+    color: #1a1a1a;
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icono-item {
+    width: 7rem;
+    margin-top: 1rem;
+}
+
+.inscripcion {
+    text-align: center;
+}
+
+.inscripcion > h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #F65826;
+}
+
+.icono-item > p {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.boton {
+    text-decoration: none;
+    color: white;
+    background-color: #F65826;
+    width: 90%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #1a1a1a;
+}
+
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+
+
+}
+
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,47 @@
+
+.naranja {
+    background-color: #fe7436;
+    border: 3px solid #ffe3d8;
+}
+
+.clara {
+    background-color: #ffe3d8;
+    border: 3px solid #fe7436;
+}
+
+.card {
+    margin: 2rem auto;
+    box-shadow: 2px 2px 8px 0px black;
+}
+
+.card:last-child {
+    margin-bottom: 0;
+}
+
+.btn {
+    color: #1a1a1a;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width:992px) {
+    .clases {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        margin-left: 12rem;
+        margin-top: 3rem;  
+    }
+
+    .card:last-child {
+        margin-left: 43%;
+    }    
+}
+
+@media (min-width: 1200px) {
+
+}
+
