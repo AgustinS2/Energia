@@ -1,0 +1,104 @@
+h1 {
+    background: linear-gradient(rgba(0,0,0,7) , rgba(0,0,0,0.1), rgba(0,0,0,0.5) ,rgba(0,0,0,0.7) ), url(../img/entrena.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.contacto {
+    font-size: 1.125rem;
+    color: white;
+    padding: 1rem;
+}
+.derecha {
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem 1.8rem;
+}
+
+textarea, input, select{
+    width: 100%;
+    padding: 0.3rem;
+    border: 1px solid #1a1a1a;
+    font-size: 1rem;
+    margin-top: 0.7rem;
+    margin-bottom: 1.125rem;
+    transition: .3s;
+    color: #1a1a1a;
+}
+
+input[type=button] {
+    width: 100%;
+    padding: 0.6rem 1.25rem;
+    background-color: #F65826;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}
+
+
+label {
+    color: #F65826;
+    font-weight: 600;
+}
+
+
+@media (min-width: 768px) {
+    .contacto {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
+@media (min-width: 992px) {
+    .contacto {
+        max-width: 1500px;
+        display: grid;
+        grid-template-columns: 45% 55%;
+        padding: 0;
+        background-color: white;
+        color: white;
+        box-shadow: 0px 0px 3px 1px black;
+    }
+
+    .img-izquierda {
+        height: 100%;
+        background: url(../img/inscripcion.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    textarea, input, select{
+        width: 70%;
+        font-size: 1rem;
+        transition: .3s;
+    }
+
+    label {
+        width: 30%;
+    }
+
+    .items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    input[type=button] {
+        width: 100%;
+        padding: 1rem;
+        background-color: #F65826;
+        cursor: pointer;
+        border: none;
+        color: #fff;
+        margin: 0 auto;
+    }
+    
+
+    h1 {
+        padding: 10rem;
+    }
+
+    .formulario {
+        padding: 3rem 0;
+    }
+
+}

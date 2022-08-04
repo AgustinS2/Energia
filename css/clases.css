@@ -1,0 +1,66 @@
+h1 {
+    background: linear-gradient(rgba(0,0,0,7) , rgba(0,0,0,0.1), rgba(0,0,0,0.5) ,rgba(0,0,0,0.7) ), url(../img/clases.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.naranja {
+    background-color: #fe7436;
+    border: 3px solid #ffe3d8;
+}
+
+.clara {
+    background-color: #ffe3d8;
+    border: 3px solid #fe7436;
+}
+
+.card {
+    margin: 2rem auto;
+    box-shadow: 2px 2px 8px 0px black;
+    width: 17rem;
+}
+
+.card:last-child {
+    margin-bottom: 0;
+}
+
+.btn {
+    color: #1a1a1a;
+}
+
+@media (min-width: 568px) {
+    .card {
+        width: 22rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .clases {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width:992px) {
+    
+
+    h1 {
+        padding: 10rem;
+    }
+
+    .card {
+        margin-top: 3rem;  
+        width: 30rem;
+    }
+
+
+    .card:last-child {
+        margin-left: 35%;
+    }    
+}
+
+@media (min-width: 1200px) {
+    .clases {
+        gap: 3rem;
+    }
+}
+

@@ -1,0 +1,38 @@
+main > ol {
+    list-style: decimal;
+}
+
+h3 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.condiciones {
+    padding: 1rem 0.8rem;
+}
+
+.contenido {
+    padding: 1.2rem 1rem;
+    font-size: 1rem;
+}
+
+h1 {
+    background: linear-gradient(rgba(0,0,0,7) , rgba(0,0,0,0.1), rgba(0,0,0,0.5) ,rgba(0,0,0,0.7) ), url(../img/condiciones.jpg) no-repeat center;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .condiciones {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+}
+@media (min-width: 992px) {
+
+    h1 {
+        padding: 10rem;
+    }
+
+}

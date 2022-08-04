@@ -1,0 +1,165 @@
+main {
+    font-family: 'Alfa Slab One', sans-serif, cursive;
+}
+
+.presentacion > p {
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem;
+}
+
+span {
+    color: #F65826;
+}
+
+main {
+    background-color: #ffe3d8;
+}
+
+.carousel__slide {
+    padding: 0.5rem;
+}
+
+h1 {
+    text-align: center;
+    color: #1a1a1a;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+    text-shadow: 0px 1px 2px black;
+}
+
+.ventajas {
+    background-color: #F65826;
+    color: #ddd;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.item > i {
+    color: #1a1a1a;
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icono-item {
+    width: 7rem;
+    margin-top: 1rem;
+}
+
+.inscripcion {
+    text-align: center;
+}
+
+.inscripcion > h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #F65826;
+}
+
+.icono-item > p {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.boton {
+    text-decoration: none;
+    color: white;
+    background-color: #F65826;
+    width: 90%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #1a1a1a;
+}
+
+.boton:hover {
+    color: white    ;
+}
+
+@media (min-width: 568px) {
+
+    .carousel__slide > a > img {
+        width: 34.375rem;
+    }
+    
+}
+
+@media (min-width: 768px) {
+        .presentacion > p {
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        .item {
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        .boton {
+            width: 40%;
+        }
+}
+@media (min-width: 992px) {
+    .carousel__slide > a > img {
+        width: 50rem;
+    }
+
+    .ventajas {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item {
+        width: 25%;
+    }
+
+    .flecha {
+        transform: rotate(-90deg);
+    }
+
+    .iconos {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 6rem;
+        padding: 2rem 0;
+    }
+    
+    .icono-item > p {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    .icono-item {
+        width: 10rem;
+    }
+
+    .boton {
+        width: 20%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel__slide > a > img {
+        width: 62.5rem;
+    }
+
+    .carousel {
+        padding: 0 6rem;
+    }
+
+    .presentacion > p {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .boton {
+        width: 15%;
+    }
+}   
